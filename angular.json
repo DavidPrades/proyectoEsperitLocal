@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "proyectoEsperit"
+    }
+  },
+  "defaultProject": "proyectoEsperit",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,12 @@
+<!-- Page Content -->
+<app-image-detail [selectedImage]="selectedImage"></app-image-detail>
+<div class="container">
+    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1>
+
+    <hr class="mt-2 mb-5">
+
+    <div class="row">
+        <app-image *ngFor="let image of images " [image]="image" (click)="onSelect(image)"></app-image>
+    </div>
+
+</div>
